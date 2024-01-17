@@ -1,0 +1,253 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'itim', sans-serif;
+}
+section
+{
+    width: 100%;
+    height: 100vh;
+    background: url(cloud.png);
+    background-size: cover;
+}
+section .leftbox
+{
+    width: 50%;
+    height: 600%;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+}
+section .leftbox .content
+{
+    color: #fff;
+    background: rgba(0,0,0,.5);
+    padding: 40px;
+    transition: .5s;
+}
+section .leftbox .content:hover
+{
+    background: #588dff;
+}
+section .leftbox .content h1
+{
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+section .leftbox .content p
+{
+    margin: 10px 0 0;
+    padding: 0;
+}
+section .events
+{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    float: right;
+    box-sizing: border-box;
+}
+section .events ul
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-120%);
+    margin: 0;
+    padding: 40px;
+    box-sizing: border-box;
+}
+section .events ul li
+{
+    list-style: none;
+    background: #fff;
+    box-sizing: border-box;
+    height: 200px;
+    /*margin: 15px 0;*/
+}
+section .events ul li .time
+{
+    position: relative;
+    padding: 20px;
+    background: #262626;
+    box-sizing: border-box;
+    width: 30%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    transition: .5s;
+}
+section .events ul li:hover .time
+{
+    background: #588dff;
+}
+section .events ul li .time h2
+{
+    position: absolute;
+    margin: 0%;
+    padding: 0%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 60px;
+    line-height: 40px;
+}
+section .events ul li .time h2 span
+{
+    font-size: 30px;
+}
+section .events ul li .details
+{
+    padding: 20px;
+    background: #fff;
+    box-sizing: border-box;
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+section .events ul li .details h3
+{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+section .events ul li .details p
+{
+    position: relative;
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 16px;
+}
+section .events ul li .details a
+{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    border: 2px solid #262626;
+    margin-top: 9px;
+    font-size: 11px;
+    transition: .5s;
+}
+section .events ul li .details a:hover
+{
+    background: #588dff;
+    color: #fff;
+    border-color: #588dff;
+}
+
+#momo {
+    position: relative;
+    right: 45px;
+    bottom: 15px;
+}
+
+section .mimi
+{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    float: right;
+    box-sizing: border-box;
+}
+section .mimi ul
+{
+    position: absolute;
+    top: 10%;
+    transform: translateY(-170%);
+    margin: 0;
+    padding: 40px;
+    box-sizing: border-box;
+}
+section .mimi ul li
+{
+    list-style: none;
+    background: #fff;
+    box-sizing: border-box;
+    height: 200px;
+    /*margin: 15px 0;*/
+}
+section .mimi ul li .amogus
+{
+    position: relative;
+    padding: 20px;
+    background: #262626;
+    box-sizing: border-box;
+    width: 30%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    transition: .5s;
+}
+section .mimi ul li:hover .amogus
+{
+    background: #588dff;
+}
+section .mimi ul li .amogus h2
+{
+    position: absolute;
+    margin: 0%;
+    padding: 0%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 60px;
+    line-height: 40px;
+}
+section .mimi ul li .amogus h2 span
+{
+    font-size: 30px;
+}
+section .mimi ul li .amogus2
+{
+    padding: 20px;
+    background: #fff;
+    box-sizing: border-box;
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+section .mimi ul li .amogus2 h3
+{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+section .mimi ul li .amogus2 p
+{
+    position: relative;
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 16px;
+}
+section .mimi ul li .amogus2 a
+{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    border: 2px solid #262626;
+    margin-top: 9px;
+    font-size: 11px;
+    transition: .5s;
+}
+section .mimi ul li .amogus2 a:hover
+{
+    background: #588dff;
+    color: #fff;
+    border-color: #588dff;
+}
+
+#mimi {
+    position: relative;
+    right: 45px;
+    bottom: 15px;
+}

@@ -1,0 +1,92 @@
+<html>
+<head>
+  <link rel ="stylesheet" href = "calcu.css">
+  <script type="text/javascript" src="cal.js"></script>
+</head>
+<body>
+<div class = "container">
+  <div class = "calculator">
+  
+  <div class = rows>
+  
+  <div class = row id = "row_display">
+  <div class = display id = display>
+    <p id = "num_display"></p>
+  </div>
+  </div>  
+  
+  <div class = row id = "row_1">
+  <div class = "buttons" id = "7"> 
+  <button class="button" id="button_7" onclick="displayFunction('7')"> 7 </button>
+  </div>
+  <div class = "buttons" id = "8"> 
+  <button class = button id = "button_8" onclick="displayFunction('8')"> 8 </button> 
+  </div>
+  <div class = "buttons" id = "9"> 
+  <button class = button id = "button_9" onclick="displayFunction('9')"> 9 </button> 
+  </div>
+  <div class = "buttons" id = "add"> 
+  <button class = button id = "button_add" onclick="displayFunction('+')"> + </button> 
+  </div>
+
+  </div>
+    
+  <div class = row id = "row_2">
+  <div class = "buttons" id = "4"> 
+  <button class = button id = "button_4" onclick="displayFunction('4')"> 4 </button> 
+  </div>
+  <div class = "buttons" id = "5"> 
+  <button class = button id = "button_5" onclick="displayFunction('5')"> 5 </button> 
+  </div>
+  <div class = "buttons" id = "6"> 
+  <button class = button id = "button_6" onclick="displayFunction('6')"> 6 </button> 
+  </div>
+  <div class = "buttons" id = "subtract"> 
+  <button class = button id = "button_subtract" onclick="displayFunction('-')"> - </button> 
+  </div>
+  </div>
+
+  <div class = row id = "row_3">
+  <div class = "buttons" id = "1"> 
+  <button class = button id = "button_1" onclick="displayFunction('1')"> 1 </button> 
+  </div>
+  <div class = "buttons" id = "2"> 
+  <button class = button id = "button_2" onclick="displayFunction('2')"> 2 </button> 
+  </div>
+  <div class = "buttons" id = "3"> 
+  <button class = button id = "button_3" onclick="displayFunction('3')"> 3 </button> 
+  </div>
+  <div class = "buttons" id = "multiply"> 
+  <button class = button id = "button_multiply" onclick="displayFunction('*')"> * </button> 
+  </div>  
+  </div>
+
+  <div class = row id = "row_4">
+  <div class = "buttons" id = "clear"> 
+  <button class = button id = "button_clear" onclick="clearFunction()"> C </button> 
+  </div>
+  <div class = "buttons" id = "0"> 
+  <button class = button id = "button_0" onclick="displayFunction('0')"> 0 </button> 
+  </div>
+  <div class = "buttons" id = "decimal"> 
+  <button class = button id = "button_decimal" onclick="displayFunction('.')"> . </button> 
+  </div>
+  <div class = "buttons" id = "divide"> 
+  <button class = button id = "button_divide" onclick="displayFunction('/')"> / </button> 
+  </div>  
+  </div>
+
+  <div class = row id = "row_5">
+  <div class = "equals" id = "equals"> 
+  <button class = button id = "button_equals" onclick = "evaluateFunction()"> = </button> 
+  </div>
+
+  <div class = "buttons" id = "modulo"> 
+  <button class = button id = "button_modulo" onclick="displayFunction('%')"> % </button> 
+  </div>   
+  </div>
+   
+  </div>
+</div>
+</body>
+</html>

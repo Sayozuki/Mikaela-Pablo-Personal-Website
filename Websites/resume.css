@@ -1,0 +1,173 @@
+:root {
+    --border-color: #ffb3c1;
+}
+
+body{
+    font-family: 'Itim';
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0px;
+    overflow: hidden;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid var(--border-color);
+    background: #ff758f;
+}
+
+nav > .nav-section{
+  padding: 1rem 1rem;
+  display: flex;
+  gap: 1rem;
+  border-left: 1px solid var (--border-color);
+  align-items: center;
+}
+
+#nav-back-section, #nav-text-section{
+  flex-basis: calc(100%/2);
+}
+
+*{
+  box-sizing: border-box;
+}
+
+a, p, span {
+  font-family: 'Itim';
+  font-weight: 400;
+  color: white;
+}
+
+#name{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+#subtitle{
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: 3px;
+}
+
+#bio{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+
+#education{
+    font-size: 5vh;
+    font-weight: bold;
+    margin: 0;
+    margin-left: 30px;
+    margin-top: 20px;
+    color: #ff758f;
+}
+
+#educations{
+    color: #2c2c2c;
+    font-size: 2.3vh;
+    margin-left: 30px;
+    font-family: 'Itim';
+}
+
+#skill-list{
+    color: #2c2c2c;
+    font-size: 2.3vh;
+    margin-left: 30px;
+    font-family: 'Itim';
+}
+
+#skills{
+    font-size: 5vh;
+    font-weight: bold;
+    margin: 0;
+    margin-left: 30px;
+    margin-top: 20px;
+    color: #ff758f;
+}
+
+.experiences{
+    margin-left: 50px;
+}
+
+#experiences{
+    font-size: 5vh;
+    font-weight: bold;
+    margin: 0;
+    margin-left: 30px;
+    margin-top: 20px;
+    color: #ff758f;
+}
+
+a{
+  text-decoration: none;
+}
+
+main {
+  flex-grow: 1;
+}
+
+main > article{
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1.5fr 1fr;
+}
+
+main > article > .article-section {
+  height: 100%;
+}
+
+main > article > .article-bio-section {
+    height: 100%;
+    border: 1px solid var(--border-color);
+    background: #ff758f;
+  }
+
+main > article > .article-image-section{
+    height: 100%;
+    border-right: 1px solid var(--border-color);
+    background: url(rsu.png);
+    background-position: center;
+    background-size: 66vh;
+    filter: blur(1px);
+    transition-duration: 1s;
+}
+
+main > article > .article-image-section:hover{
+    filter: blur(0px);
+}
+
+main > article > .article-description-section{
+  display: flex;
+}
+
+main > article > .article-extra-section{
+    display: flex;
+  }
+
+#miyo{
+    color: #2c2c2c;
+    font-size: 1.2vh;
+    margin-left: 300px;
+    font-family: "Rubik", sans-serif;
+}
+
+#miyoIMG{
+    margin-left: 300px;
+    margin-top: 0px;
+}
+
+#nav-download-section{
+  justify-content: flex-end;
+  margin-right: 10px;
+}

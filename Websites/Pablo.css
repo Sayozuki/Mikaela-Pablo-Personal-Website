@@ -1,0 +1,48 @@
+h2 {
+	color:black;
+	font-size:35px;
+	text-align:center;
+}
+
+#fname {
+	background-color:lightblue;
+}
+
+#lname {
+	background-color:lightblue;
+}
+
+#age {
+	background-color:lightblue;
+}
+
+#blk {
+	background-color:lightyellow;
+}
+
+#street {
+	background-color:lightyellow;
+}
+
+#subd {
+	background-color:lightyellow;
+}
+
+#fav {
+	color:black;
+	font-size:25px;
+	text-align:center;
+}
+
+#Add {
+	color:black;
+	font-size:25px;
+	text-align:center;
+}
+
+input:hover {
+  background-color: lightcoral;
+}
+
+
+

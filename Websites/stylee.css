@@ -1,0 +1,118 @@
+body {
+    font-family: Itim;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(cloud.png);
+}
+
+header {
+    background-color: #588dff;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.contact {
+    border: 5px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #b5ccff;
+}
+
+form {
+    display: grid;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+input,
+textarea {
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #588dff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 30%;
+    margin-left: 30%;
+}
+
+button:hover {
+    background-color: #3759a0;
+}
+
+#name {
+    margin-left: 5%;
+    width: 80%;
+}
+
+#email {
+    margin-left: 5%;
+    width: 80%;
+}
+
+#message {
+    margin-left: 5%;
+    width: 80%;
+    height: 130%;
+}
+
+.container {
+    border: 5px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    width: 55%;
+    margin-left: 20%;
+    background-color: #b5ccff;
+}
+
+#if {
+    font-size: 20px;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid var(--border-color);
+}
+
+nav > .nav-section{
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+  border-left: 1px solid var (--border-color);
+  align-items: center;
+  justify-content: center;
+}
+
+#nav-back-section, #nav-text-section{
+  flex-basis: calc(100%/3);
+}
+
+#my {
+    font-size: 30px;
+}
+
+#nav-back-section{
+    justify-content: flex-start;
+    }

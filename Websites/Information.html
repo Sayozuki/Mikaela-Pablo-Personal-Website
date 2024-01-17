@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Itim' rel='stylesheet'>
+    <title>Mikaela Pablo</title>
+    <style>
+        body {
+            font-family: 'Itim';
+            font-size: 100px;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: url(homee.png);
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center
+        }
+        .content-container {
+            position: relative;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        p {
+            font-size: 100px;
+            margin-right: 20px; 
+            display: inline-block;
+            position: absolute;
+            left: -130px; 
+            bottom: -300px;
+        }
+        #mika {
+            position: absolute;
+            left: -800px; 
+            top: 60px; 
+        }
+
+        #content{
+            font-size: 30px;
+            width: 1000px;
+            position: absolute;
+            left: 600px; 
+            bottom: 500px;
+        }
+
+        #box1{
+            background-color: #FF337C;
+            position: absolute;
+            width: 800px;
+            height: 300px;
+            left: 150px; 
+            top: 600px; 
+            font-size: 64px;
+            color: white;
+        }
+
+        #box2{
+            background-color: #FF005C;
+            position: absolute;
+            width: 800px;
+            height: 300px;
+            left: 1000px; 
+            top: 600px; 
+            font-size: 64px;
+            color: white;
+        }
+        
+        #ui{
+            color: white;
+            width: 750px;
+            height: 300px;
+            position: absolute;
+            top: 700px; 
+            left: 170px; 
+            font-size: 40px;
+        }
+
+        #art{
+            color: white;
+            width: 750px;
+            height: 300px;
+            position: absolute;
+            top: 700px; 
+            left: 1025px; 
+            font-size: 40px;
+        }
+    
+        nav{
+        display: flex;
+        width: 100%;
+        border-bottom: 1px solid var(--border-color);
+        background: #ff758f;
+        }
+
+        nav > .nav-section{
+        padding: 1rem 1rem;
+        display: flex;
+        gap: 1rem;
+        border-left: 1px solid var (--border-color);
+        align-items: center;
+        }
+
+        #nav-back-section, #nav-text-section{
+        flex-basis: calc(100%/2);
+        }
+
+        a {
+        font-family: 'Itim';
+        font-weight: 400;
+        font-size: 40px;
+        color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div id = "nav-back-section" class = "nav-section">
+            <a href="Home.html"> Go back </a>
+        </div>
+        
+        <div id = "nav-text-section" class = "nav-section">
+        </div>
+    </nav>
+    <div class="content-container">
+        <img id="mika" src="Mika.png" alt="it's me" width="350" height="350">
+        <p>Konnichiwa!!</p>
+    </div>
+    <p id="content">Hello! I am Mikaela Calaunan Pablo, an average and persevering IT student from National University Fairview. 
+        Im 20 years old from Camarin, Caloocan City. I like watching anime and playing video games when i have time</p>
+    <div class="box" id="box1">UI/UX Design</div>
+    <div class = "text" id = "ui"> I practice website and application designing during my free time and 
+        study different kinds of UI/UX design by research</div>
+    <div class="box" id="box2">Digital Arts</div>
+    <div class = "text" id = "art"> I do traditional and digital art when I have free time; I also study gestures and animations to apply in my own art.</div>
+</body>
+</html>

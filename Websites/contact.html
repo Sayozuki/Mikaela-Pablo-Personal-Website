@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Itim' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylee.css">
+    <title>Contact Information</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div id = "nav-back-section" class = "nav-section">
+                <a href="Home.html"> Go back </a>
+            </div>
+            
+            <div id = "nav-text-section" class = "nav-section">
+                <p id="my">My Contact Information</p>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="contact">
+            <h2>Contact Details</h2>
+            <p>Twitter: YoonaKels</p>
+            <p>Discord: yoona_yuna</p>
+        </section>
+    </main>
+    <div class="container">
+        <form action="process.php" method="post">
+            <p id="if">If you want to message me kindly leave it here and fill up the following: </p>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

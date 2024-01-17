@@ -1,0 +1,25 @@
+body {
+    background-color: palevioletred;
+    text-align: center;
+}
+
+#demo {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+#loko {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+button {
+    align-items: center;
+}
+
+
+button:hover {
+    background-color: lightcoral;
+  }

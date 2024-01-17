@@ -1,0 +1,63 @@
+<html>
+<head>
+    <link rel ="stylesheet" href="Pablo.css">
+</head>
+<style>
+body {
+	background-color:lightpink;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	text-align: center;
+}
+</style>
+<body>
+<h2>HTML Forms</h2>
+
+    <label for="fname">First Name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last Name:</label><br>
+    <input type="text" id="lname" name="lname"><br>
+    <label for="age">Age:</label><br>
+    <input type="number" id="age" name="age"><br>
+    <label for="sex">Sex:</label><br>
+    <input type="radio" id="seg" name="seg><br>
+    <label for="male">Male:</label><br>
+    <input type="radio" id="seg" name="seg><br>
+    <label for="fmale">Female:</label><br>
+
+    <h2 id="fav">Favorite Place To go:</h2>
+    <input type="checkbox" id="fav" name="fave><br>
+    <label for="bora">Boracay</label><br>
+    <input type="checkbox" id="fav" name="fave><br>
+    <label for="bora">Baguio</label><br>
+    <input type="checkbox" id="fav" name="fave><br>
+    <label for="bora">Tagaytay</label><br>
+    <input type="checkbox" id="fav" name="fave><br>
+    <label for="bora">Bohol</label><br>
+    <input type="checkbox" id="fav" name="fave><br>
+    <label for="bora">Qmc</label><br>
+
+
+
+
+    <h2 id="Add">Address:</h2>
+    <label for="blk">Block lot:</label><br>
+    <input type="number" id="blk" name="lot"><br>
+    <label for="street">Street:</label><br>
+    <input type="text" id="street" name="street"><br>
+    <label for="subd">Subdivision:</label><br>
+    <input type="text" id="subd" name="subd"><br>
+
+    
+    <input type="submit" value="Submit" onclick="myFunction()">
+</form>
+    <p id="demo"></p>
+
+    <script>
+        function myFunction() {
+          document.getElementById("demo").innerHTML = "Submitted, wait 2 days for the approval";
+        }
+        </script>
+</body>
+</html>
